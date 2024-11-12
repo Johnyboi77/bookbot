@@ -9,4 +9,13 @@ def get_book_text(path):
         return f.read()
 
 if __name__ == "__main__":  
+
+def count_words (text):
+        word_list = text.split()
+        word_count = 0
+        for word in word_list:
+            word_count += 1
+        return word_count
+
+
     main()
